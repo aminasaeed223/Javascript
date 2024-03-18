@@ -36,11 +36,65 @@
 // }else{
 //     document.write('Logout')
 // }
+// Ternary operator to use if else statement in one line
+
+
 // let option = isloggedin == 1 ? "logout": "login";
 //     document.write(option)
 
 
-// Nullish Coalescing operator
-let user;
-{alert(user ?? Guest user);}
+// // Nullish Coalescing operator
+// let user;
+// {alert(user ?? Guest user);} To avoid showing undefined 
+// if answer is 1, y, yes >> then output ... continue
+// if answer is 0, n , no >> then output ..break
+let input;
+input = 0;
+// if (input === 1){
+//     Document.write("continue");
+// }else if (input === 'y'){
+//     Document.write("continue");
+
+// }else if (input === 'yes'){
+//     Document.write("continue");
+
+// }else if (input === 0){
+//     Document.write("end");
+
+// }else if (input === 'n'){
+//     Document.write("end");
+
+// }else if (input === 'no'){
+//     Document.write("end");
+
+// }else{
+//     Document.write("wrong input");
+
+// }
+
+
+// Switch Statement 
+switch(input){
+    case 1:
+        Document.write("continue");
+        break;
+    case 'y' :
+        Document.write("continue");
+        break;
+    case 'yes':
+        Document.write("continue");
+        break;
+    case 0:
+        Document.write("continue");
+        break;
+    case 'n':
+        Document.write("continue");
+        break;
+    case 'no':
+        Document.write("continue");
+        break;
+    default:
+        Document.write("wrong input");
+
+}
 
