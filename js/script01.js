@@ -21,8 +21,25 @@
 // }while(counter <=100);
 
 // for loop
-for(let counter= 1; counter<= 10; counter++){
-    document.write("TechGun")
+// for(let counter= 1; counter<= 10; counter++){
+//     // if(counter == 5){
+//     //     continue;
+
+//     // }
+//     document.write(counter);
+//     for(counter2 = 1; counter2== 1; counter2 ++){
+//         document.write('amina rana');
+//         document.write('<br>');
+
+//     }
+    
+// }
+// alert function
+let age prompt('Enter your age');
+if(age == 5){
+    document.write('Your are young')
 }
+let age confirm('personal name')
+
 
 
