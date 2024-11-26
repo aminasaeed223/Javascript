@@ -6,13 +6,23 @@
     
 // }
 
-// finding the radius of a circle
-let pi = 3.14159;
-let radius;
-let circumference;
+// // finding the radius of a circle
+// let pi = 3.14159;
+// let radius;
+// let circumference;
 
-radius = window.prompt('Enter radius of a circle')
-radius = Number()
-circumference = 2* pi *radius
-// console.log(circumference)
-document.getElementById("button").onclick  = circumference.value;
+// radius = window.prompt('Enter radius of a circle')
+// radius = Number()
+// circumference = 2* pi *radius
+// // console.log(circumference)
+// document.getElementById("button").onclick  = circumference.value;
+// let x= 3.4;
+// let y = 3;
+// let z;
+// z = Math.round(x)
+// console.log(z)
+
+
+// RANDOM NUMBER GENERATOR
+let randomNum = Math.floor(Math.random()*200) + 1;
+console.log(randomNum)
