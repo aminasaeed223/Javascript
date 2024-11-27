@@ -24,5 +24,14 @@
 
 
 // RANDOM NUMBER GENERATOR
-let randomNum = Math.floor(Math.random()*200) + 1;
-console.log(randomNum)
+// let randomNum = Math.floor(Math.random()*200) + 1;
+// console.log(randomNum)
+// number to string
+
+age = 22 + "";
+console.log(typeof age);
+// if string to Number
+age = + "44"
+console.log(typeof age);
+console.log(ag)
+

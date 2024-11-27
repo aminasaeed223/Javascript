@@ -6,13 +6,13 @@ body{
     justify-content: center;
     align-items: center;
     height: 100vh;
-    background-color: rgb(239, 239, 179);
+    background-color: rgb(68, 62, 252);
 }
 .container{
     border: none;
     border-radius: 15px;
     background-color: #bdee8c;
-    height: 50vh;
+    height: auto;
     width: 25vw;
     box-shadow: 3px 4px 5px;
 }
@@ -56,3 +56,4 @@ li{
     padding: 10px;
     margin-bottom: 10px;
 }
+
