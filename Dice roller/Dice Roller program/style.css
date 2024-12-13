@@ -1,0 +1,32 @@
+#container{
+    font-family: Arial, Helvetica, sans-serif;
+    /* background-color: rgb(215, 178, 247); */
+    font-size: 2rem;
+    /* width: 400px;
+    height: 400px; */
+   text-align: center;
+   /* justify-content: center; */
+   font-weight: bold;
+
+}
+*{
+   background-color: rgb(215, 178, 247); 
+}
+button{
+    font-size: 1rem;
+    padding: 10px;
+    border-radius: 10px;
+    border: none;
+    background-color: #ac36f6;
+    cursor: pointer;
+}
+button:hover{
+    background-color: #6a5776;
+
+}
+input{
+    font-size: 2rem;
+    width: 250px;
+    height: 30px;
+    text-align: center;
+}

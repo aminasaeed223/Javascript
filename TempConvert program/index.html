@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style1.css">
+</head>
+<body>
+    <form action="">
+        <div id = "flex">
+        <h1>Convert Temperature </h1>
+        <input type = "number" id = "textbox" value = "0"><br><br>
+        <input type="radio" name="unit" id="tofrhn">
+        <label for="tofrhn" > Celcius ➡ Farhenheit </label><br><br>
+        <input type="radio" name="unit" id="tocel">
+        <label for="tocel" > Farhenheit  ➡ Celcius   </label><br><br><br>
+        <button onclick= convert()>Convert</button>
+        <p id = "result"> </p>
+    </div>
+    </form>
+    <script src="script.js"></script>
+</body>
+</html>

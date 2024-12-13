@@ -1,0 +1,30 @@
+*{
+    
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-image: url(NY.PNG);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+}
+#container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 2px solid black;
+    height: 100vh;
+}
+#clock{
+    font-family: monospace;
+    font-size: 7em;
+    font-weight: 700;
+    text-align: center;
+    color: rgb(9, 8, 8);
+    backdrop-filter: blur(2px);
+    background-color: #95b6bb;
+    width: 100%;
+}
